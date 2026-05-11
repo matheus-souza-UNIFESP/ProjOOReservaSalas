@@ -1,13 +1,7 @@
 package model;
 
-public class Professor implements Pessoa {
-    private String nome;
-
+public class Professor extends Pessoa {
     public Professor(String nome) {
-        this.nome = nome;
-    }
-
-    public String getNome() {
-        return nome;
+        super(nome);
     }
 }

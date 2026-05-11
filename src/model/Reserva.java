@@ -2,7 +2,9 @@ package model;
 
 import java.util.Date;
 
-public class Reserva {
+import observer.Assunto;
+
+public class Reserva extends Assunto {
     private Date dia;
     private StatusReserva status;
     private Sala sala;
